@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="One-hT-BDI">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,36 +13,36 @@
             <objects>
                 <viewController id="One-hT-BDI" customClass="ViewController" customModule="HomeWork5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2UK-Fa-BoJ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kt6-P1-qRx" userLabel="SubView">
-                                <rect key="frame" x="39.333333333333343" y="281" width="314.33333333333326" height="290"/>
+                                <rect key="frame" x="41.333333333333343" y="303" width="331.33333333333326" height="290"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Пошта:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qo-6b-lbx" userLabel="Email Label">
-                                        <rect key="frame" x="0.0" y="5" width="314.33333333333331" height="20"/>
+                                        <rect key="frame" x="0.0" y="5" width="331.33333333333331" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemGray2Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RYy-RU-fDH" userLabel="Email Text Field">
-                                        <rect key="frame" x="0.0" y="30" width="314.33333333333331" height="34"/>
+                                        <rect key="frame" x="0.0" y="30" width="331.33333333333331" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRd-Fe-JdF" userLabel="Password Label">
-                                        <rect key="frame" x="0.0" y="69" width="314.33333333333331" height="20"/>
+                                        <rect key="frame" x="0.0" y="69" width="331.33333333333331" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemGray2Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WI5-0z-Kvw" userLabel="Password Text Field">
-                                        <rect key="frame" x="0.0" y="94" width="314.33333333333331" height="34"/>
+                                        <rect key="frame" x="0.0" y="94" width="331.33333333333331" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihH-Sw-1o2" userLabel="SighIn Button">
-                                        <rect key="frame" x="78.666666666666657" y="168" width="157" height="44"/>
+                                        <rect key="frame" x="83.000000000000014" y="168" width="165.33333333333337" height="44"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="QFE-1H-geV"/>
@@ -52,7 +52,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Увійти"/>
                                     </button>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJt-G3-ddz" userLabel="Registration Button">
-                                        <rect key="frame" x="78.666666666666657" y="242" width="157" height="44"/>
+                                        <rect key="frame" x="83.000000000000014" y="242" width="165.33333333333337" height="44"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="EwP-Kz-hr4"/>
@@ -74,7 +74,7 @@
                                     <constraint firstItem="RYy-RU-fDH" firstAttribute="width" secondItem="kt6-P1-qRx" secondAttribute="width" id="PmG-Pz-ntz"/>
                                     <constraint firstItem="RYy-RU-fDH" firstAttribute="top" secondItem="5qo-6b-lbx" secondAttribute="bottom" constant="5" id="Vj0-TB-tHp"/>
                                     <constraint firstItem="ihH-Sw-1o2" firstAttribute="centerX" secondItem="kt6-P1-qRx" secondAttribute="centerX" id="Yf9-xS-14a"/>
-                                    <constraint firstItem="WJt-G3-ddz" firstAttribute="top" secondItem="ihH-Sw-1o2" secondAttribute="bottom" priority="999" constant="30" id="a48-Yh-5G7"/>
+                                    <constraint firstItem="WJt-G3-ddz" firstAttribute="top" secondItem="ihH-Sw-1o2" secondAttribute="bottom" constant="30" id="a48-Yh-5G7"/>
                                     <constraint firstAttribute="height" constant="290" id="az7-D8-Rhs"/>
                                     <constraint firstItem="WJt-G3-ddz" firstAttribute="width" secondItem="kt6-P1-qRx" secondAttribute="width" multiplier="0.5" id="hS9-tL-ere"/>
                                     <constraint firstItem="IRd-Fe-JdF" firstAttribute="width" secondItem="kt6-P1-qRx" secondAttribute="width" id="hwd-8f-Wcc"/>
